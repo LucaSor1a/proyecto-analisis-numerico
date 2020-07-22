@@ -49,7 +49,7 @@ x,y\
 23.6,556.96\
 23.7,561.69\
 23.8,566.44\
-23.9,571.21\
+23.9,571.21
 
 Cuando se utilice la herramienta con la opción del archivo se solicitará que se ingrese la ruta o PATH del archivo, indicando su ubicación. Una vez ingresada se corrobora que el archivo ingresado exista, sea del formato solicitado y que no hayan problemas con los datos ingresados. Luego se realizarán los cálculos y devolverá el resultado, de la misma forma que en la opción manual.
 
