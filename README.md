@@ -3,9 +3,9 @@
 
 ## Índice:
 
-* [Herramienta]
-* [Uso de la herramienta]
-* [Desarrollo y limitaciones]
+* Herramienta
+* Uso de la herramienta
+* Desarrollo y limitaciones
 
 
 ## Herramienta:
@@ -24,12 +24,12 @@ Ambas opciones deben ser seleccionadas tecleando 1 o 2 y presionando ENTER.
 Para poder ingresar los datos de forma manual, se deben conocer todos los puntos que se utilizarán en la aplicación del método.
 Primero se solicitarán los datos de abscisas, estos deben estar separados por "," (coma) y pueden tener espacios. Si hay algun caracter distinto a un número el programa terminará. El primer valor debe ser x0, el valor de abscisas donde se quiere conocer el valor de la derivada.
 
-* [Ejemplo de una forma correcta de utilizar la herramienta:]
+* Ejemplo de una forma correcta de utilizar la herramienta:
 X: 23, 23.1, 23.2, 23.3, 23.4, 23.5, 23.6, 23.7, 23.8, 23.9
 
 Una vez que se ingresan los datos de abscisas se procede a solicitar los datos de ordenadas, los cuales deben ser ingresados de la misma forma. El primer valor debe ser y0.
 
-* [Ejemplo de una forma correcta de utilizar la herramienta:]
+* Ejemplo de una forma correcta de utilizar la herramienta:
 Y: 529, 533.61, 538.24, 542.89, 547.56, 552.25, 556.96, 561.69, 566.44, 571.21
 
 Después de ingresar estos datos la herramienta continúa con los cálculos y devuelve el resultado de la derivada en punto (x0, y0).
@@ -38,7 +38,7 @@ Después de ingresar estos datos la herramienta continúa con los cálculos y de
 
 Para poder ingresar los datos a través de un archivo .csv se debe crear un archivo de este formato ingresando los datos separados por comas, sin espacios y solamente 2 valores por fila. Se debe empezar por una fila especificando el orden de los valores, colocando "x" o "y" dependiendo de lo que se prefiera, y en las siguientes filas se colocaran con los valores de cada uno de los puntos a tener en cuenta.
 
-* [Ejemplo de una forma correcta de crear el archivo .csv]
+* Ejemplo de una forma correcta de crear el archivo .csv
 x,y
 23,529
 23.1,533.61
